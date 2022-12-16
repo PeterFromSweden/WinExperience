@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolicyOverride", "PolicyOverride\PolicyOverride.csproj", "{FA373D25-C85A-42CD-836C-34F9EBF97067}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinExperience", "WinExperience\WinExperience.csproj", "{FA373D25-C85A-42CD-836C-34F9EBF97067}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PolicyOverrideSetup", "PolicyOverrideSetup\PolicyOverrideSetup.vdproj", "{833FDF90-3E7A-4F80-8FF2-0A0ED99D48E0}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WinExperienceSetup", "WinExperienceSetup\WinExperienceSetup.vdproj", "{833FDF90-3E7A-4F80-8FF2-0A0ED99D48E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

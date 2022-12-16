@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Security.Principal;
+using System.Threading;
 using Microsoft.Win32;
 
-namespace PolicyOverride
+namespace WinExperience
 {
   internal class Program
   {
@@ -20,9 +21,10 @@ namespace PolicyOverride
         }
         UpdateReg(Registry.LocalMachine, @"SOFTWARE\Policies\Google\Chrome", "PasswordManagerEnabled", 1);
         UpdateReg(Registry.LocalMachine, @"SOFTWARE\Policies\Google\Chrome", "PasswordManagerAllowShowPasswords", 1);
-        Console.WriteLine("Completed.");
-        Console.WriteLine("Press <Enter> to exit.");
-        Console.ReadLine();
+        Console.WriteLine("WinExperience completed successfully.");
+        //Console.WriteLine("Press <Enter> to exit.");
+        //Console.ReadLine();
+        Thread.Sleep(500);
       }
       catch (Exception ex)
       {

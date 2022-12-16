@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:PolicyOverrideSetup"
+"ProjectName" = "8:WinExperienceSetup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -45,7 +45,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\PolicyOverrideSetup.msi"
+        "OutputFilename" = "8:Debug\\WinExperienceSetup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -69,7 +69,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\PolicyOverrideSetup.msi"
+        "OutputFilename" = "8:Release\\WinExperienceSetup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -209,7 +209,7 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:PolicyOverride"
+        "ProductName" = "8:WinExperience"
         "ProductCode" = "8:{B90F0972-4677-4853-AD76-27E1B2B9BEBF}"
         "PackageCode" = "8:{CB0FCAEB-9BC9-492F-83DD-1D11FBD7E1E4}"
         "UpgradeCode" = "8:{07AD7FF0-6DDD-4877-BCEB-BFCD11D9ADC0}"
@@ -222,7 +222,7 @@
         "Manufacturer" = "8:PeterFromSwe"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:PolicyOverride"
+        "Title" = "8:WinExperience"
         "Subject" = "8:"
         "ARPCONTACT" = "8:PeterFromSwe"
         "Keywords" = "8:"
@@ -333,7 +333,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6D8ED7717B2041048FB640C3997F3A69"
             {
-            "Name" = "8:PolicyOverride"
+            "Name" = "8:WinExperience"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -746,7 +746,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_23084BF5812949709B8B3F1941A89ECB"
             {
-            "SourcePath" = "8:..\\PolicyOverride\\obj\\Release\\PolicyOverride.exe"
+            "SourcePath" = "8:..\\WinExperience\\obj\\Release\\WinExperience.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_356A035F72D440F58D727BCA808070A5"

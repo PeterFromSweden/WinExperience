@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FA373D25-C85A-42CD-836C-34F9EBF97067}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PolicyOverride</RootNamespace>
-    <AssemblyName>PolicyOverride</AssemblyName>
+    <RootNamespace>WinExperience</RootNamespace>
+    <AssemblyName>WinExperience</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
